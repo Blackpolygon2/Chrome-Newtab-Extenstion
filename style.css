@@ -1,0 +1,59 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); 
+.light-theme {
+  --font-color: #000;
+  --primary-color: ;
+  --secondary-color: ;
+  --background-color: ;
+}
+.dark-theme {
+  --font-color: #fff;
+  --primary-color: ;
+  --secondary-color: ;
+  --background-color: #242424;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    font-family: "Inter", sans-serif;
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  font-size: 3rem;
+}
+.time h1{
+  font-weight: 900;
+  margin-bottom: 8%;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+}
+.search-bar input{
+  width: 45rem;
+  height: 3rem;
+  border-radius: 100px;
+  background-color: var(--font-color);
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  padding-left: .8rem;
+}
+  

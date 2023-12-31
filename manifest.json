@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Custom New Tab Extension",
+    "version": "1.0",
+    "description": "Replaces the new tab page with a custom page",
+    "permissions": ["activeTab", "bookmarks"],
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    },
+    "icons": {
+      
+    }
+  }
+  
